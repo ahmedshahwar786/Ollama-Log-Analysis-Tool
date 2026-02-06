@@ -1,0 +1,9 @@
+timestamp,host,severity,source,message
+2025-11-26T10:01:22Z,web01,INFO,nginx,GET /index.html 200
+2025-11-26T10:03:41Z,web01,WARN,nginx,Multiple 404 responses detected from IP 10.0.0.5
+2025-11-26T10:05:12Z,auth01,ERROR,sshd,Failed password for invalid user admin from 192.168.1.50 port 54321
+2025-11-26T10:05:13Z,auth01,ERROR,sshd,Failed password for invalid user admin from 192.168.1.50 port 54322
+2025-11-26T10:05:14Z,auth01,ERROR,sshd,Failed password for invalid user admin from 192.168.1.50 port 54323
+2025-11-26T10:10:00Z,fw01,CRITICAL,firewall,Possible SQL injection attempt detected in HTTP request from 10.0.0.5
+2025-11-26T10:15:30Z,web01,INFO,nginx,GET /login 200
+2025-11-26T10:17:42Z,web01,WARN,nginx,Repeated requests to /admin from unauthenticated session
